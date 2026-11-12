@@ -1,0 +1,277 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | angga</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Font Google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <header class="angga_header">
+        <nav class="angga_navbar">
+            <a href="#home" class="angga_logo">
+                <i class="fas fa-code"></i>
+                <span>Angga Maulana<b>Portfolio</b></span>
+            </a>
+
+            <button class="angga_menu_toggle" id="angga_menu_toggle" aria-label="Buka menu" aria-expanded="false">
+                <i class="fas fa-bars"></i>
+            </button>
+
+            <ul class="angga_menu" id="angga_menu">
+                <li><a href="#home" class="angga_active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- HERO SECTION -->
+        <section class="angga_hero" id="home">
+            <div class="angga_hero_content">
+                <p class="angga_greeting">Hello, I'm</p>
+
+                <h1>Angga <span>Maulana</span></h1>
+
+                <h3>Mahasiswa | Web Developer </h3>
+
+                <p class="angga_hero_description">
+                    Selamat datang di website portfolio pribadi saya.
+                    Saya memiliki ketertarikan dalam dunia teknologi,
+                    pemrograman, dan pengembangan angga modern.
+                    Saya senang belajar dan menciptakan sesuatu yang bermanfaat.
+                </p>
+
+                <div class="angga_hero_buttons">
+                    <a href="#about" class="angga_btn">
+                        <i class="fas fa-user"></i> About Me
+                    </a>
+
+                    <a href="mailto:anggamaulana@gmail.com" class="angga_btn_outline">
+                        <i class="fas fa-envelope"></i> Contact Me
+                    </a>
+                </div>
+            </div>
+
+            <div class="angga_hero_image">
+                <div class="angga_laptop">
+                    <i class="fas fa-code"></i>
+                </div>
+                <i class="fas fa-leaf angga_plant"></i>
+            </div>
+        </section>
+
+        <!-- ABOUT SECTION -->
+        <section class="angga_about" id="about">
+            <div class="angga_about_content">
+                <div class="angga_section_title">
+                    <h2>About Me</h2>
+                    <span></span>
+                </div>
+
+                <p>
+                    Saya adalah seorang mahasiswa yang memiliki minat
+                    dalam bidang teknologi informasi, khususnya
+                    pengembangan website dan desain antarmuka.
+                    Saya senang mempelajari hal-hal baru, mengembangkan
+                    kemampuan pemrograman, serta membuat proyek kreatif
+                    yang dapat memberikan manfaat bagi orang lain.
+                </p>
+
+                <div class="angga_about_info">
+                    <div>
+                        <i class="fas fa-map-marker-alt"></i>
+                        Indonesia
+                    </div>
+
+                    <div>
+                        <i class="fas fa-envelope"></i>
+                        angga@example.com
+                    </div>
+
+                    <div>
+                        <i class="fas fa-graduation-cap"></i>
+                        Teknik Informatika
+                    </div>
+                </div>
+            </div>
+
+            <div class="angga_profile">
+                <img src="my.photo.jpeg"
+                     alt="Foto profil Angga">
+            </div>
+        </section>
+
+        <!-- SKILLS SECTION -->
+        <section class="angga" id="skills">
+            <div class="angga_section_title">
+                <h2>My Skills</h2>
+                <span></span>
+            </div>
+
+            <div class="angga_skills_grid">
+
+                <div class="angga_skill_card">
+                    <i class="fab fa-html5" style="color:#e44d26"></i>
+                    <span>HTML5</span>
+                </div>
+
+                <div class="angga_skill_card">
+                    <i class="fab fa-css3-alt" style="color:#264de4"></i>
+                    <span>CSS3</span>
+                </div>
+
+                <div class="angga_skill_card">
+                    <i class="fab fa-js" style="color:#f0db4f"></i>
+                    <span>JavaScript</span>
+                </div>
+
+                <div class="angga_skill_card">
+                    <i class="fab fa-php" style="color:#777bb4"></i>
+                    <span>PHP</span>
+                </div>
+
+                <div class="angga_skill_card">
+                    <i class="fas fa-database" style="color:#4479a1"></i>
+                    <span>MySQL</span>
+                </div>
+
+                <div class="angga_skill_card">
+                    <i class="fab fa-laravel" style="color:#ff2d20"></i>
+                    <span>Laravel</span>
+                </div>
+
+                <div class="angga_skill_card">
+                    <i class="fab fa-bootstrap" style="color:#7952b3"></i>
+                    <span>Bootstrap</span>
+                </div>
+
+                <div class="angga_skill_card">
+                    <i class="fab fa-react" style="color:#61dafb"></i>
+                    <span>React</span>
+                </div>
+
+                <div class="angga_skill_card">
+                    <i class="fab fa-python" style="color:#3776ab"></i>
+                    <span>Python</span>
+                </div>
+
+                <div class="angga_skill_card">
+                    <i class="fas fa-chart-bar" style="color:#f2c811"></i>
+                    <span>Power BI</span>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- PROJECTS SECTION -->
+        <section class="angga_projects" id="projects">
+            <div class="angga_section_title">
+                <h2>My Projects</h2>
+                <span></span>
+            </div>
+
+            <div class="angga_projects_grid">
+
+                <div class="angga_project_card">
+                    <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600"
+                         alt="Dashboard">
+
+                    <div class="angga_project_info">
+                        <h3>BI Dashboard</h3>
+                        <p>Sistem visualisasi data dan laporan bisnis.</p>
+                        <a href="#contact">View Project <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <div class="angga_project_card">
+                    <img src="https://images.unsplash.com/photo-1524661135-423995f22d0b?w=600"
+                         alt="GIS Mapping">
+
+                    <div class="angga_project_info">
+                        <h3>GIS Mapping</h3>
+                        <p>Website pemetaan geografis berbasis lokasi.</p>
+                        <a href="#contact">View Project <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <div class="angga_project_card">
+                    <img src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=600"
+                         alt="E-Commerce">
+
+                    <div class="angga_project_info">
+                        <h3>E-Commerce</h3>
+                        <p>Website toko online untuk penjualan produk.</p>
+                        <a href="#contact">View Project <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <div class="angga_project_card">
+                    <img src="https://images.unsplash.com/photo-1472851294608-062f824d29cc?w=600"
+                         alt="Online Store">
+
+                    <div class="angga_project_info">
+                        <h3>Online Store</h3>
+                        <p>Platform belanja online dengan desain modern.</p>
+                        <a href="#contact">View Project <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="angga_footer" id="contact">
+        <div class="angga_footer_content">
+            <div>
+                <h3>angga Portfolio</h3>
+                <p>Build, Learn, and Share Knowledge.</p>
+            </div>
+
+            <div class="angga_footer_contact">
+                <a href="mailto:angga@example.com">
+                    <i class="fas fa-envelope"></i> angga@example.com
+                </a>
+
+                <a href="tel:+6281234567890">
+                    <i class="fas fa-phone"></i> +62 812 3456 7890
+                </a>
+
+                <span>
+                    <i class="fas fa-map-marker-alt"></i> Indonesia
+                </span>
+            </div>
+        </div>
+
+        <div class="angga_footer_bottom">
+            <p>&copy; <span id="angga_year"></span> angga Portfolio. All Rights Reserved.</p>
+
+            <div class="angga_social">
+                <a href="https://instagram.com/" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                <a href="https://github.com/" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                <a href="https://linkedin.com/" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
